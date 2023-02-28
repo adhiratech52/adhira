@@ -42,3 +42,11 @@
 #btn2{
     background-color:  #61ce70
 }
+@media only screen and (max-width: 991px) {
+    #blogsLink{
+        margin-left: 0px;
+    }
+    .navButtons button{
+        margin-left: 0px;
+    }
+  }
