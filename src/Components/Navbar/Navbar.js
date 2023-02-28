@@ -6,14 +6,15 @@ import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Link } from 'react-router-dom';
+import logo from '../media/logo.png';
 
 function Navbarr() {
   return (
  
     <Navbar expand="lg" className='Navbarr'>
       <Container>
-        <Navbar.Brand href="#home" className='NavbarBrand'><img src='https://miraclesoftsolutions.com/wp-content/uploads/2022/04/IMG-20221202-WA0004__1_-removebg-preview-1.png' style={{width:'100%',
-      height:'14vh'}} /></Navbar.Brand>
+        <Navbar.Brand href="#home" className='NavbarBrand'><img src={logo} style={{width:'100%',
+      height:'7vh'}} /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav style={{marginLeft:'auto',marginRight:'auto'}}  >
